@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1DA47B2383051900B79610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA47A2383051900B79610 /* AppDelegate.swift */; };
+		DC1DA47D2383051900B79610 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA47C2383051900B79610 /* GameScene.sks */; };
+		DC1DA47F2383051900B79610 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA47E2383051900B79610 /* Actions.sks */; };
+		DC1DA4812383051900B79610 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4802383051900B79610 /* GameScene.swift */; };
+		DC1DA4832383051900B79610 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4822383051900B79610 /* GameViewController.swift */; };
+		DC1DA4862383051900B79610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA4842383051900B79610 /* Main.storyboard */; };
+		DC1DA4882383051A00B79610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA4872383051A00B79610 /* Assets.xcassets */; };
+		DC1DA48B2383051A00B79610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA4892383051A00B79610 /* LaunchScreen.storyboard */; };
+		DC1DA4962383051A00B79610 /* EmotionGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4952383051A00B79610 /* EmotionGameTests.swift */; };
+		DC1DA4A12383051A00B79610 /* EmotionGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4A02383051A00B79610 /* EmotionGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC1DA4922383051A00B79610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1DA46F2383051900B79610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1DA4762383051900B79610;
+			remoteInfo = EmotionGame;
+		};
+		DC1DA49D2383051A00B79610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1DA46F2383051900B79610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1DA4762383051900B79610;
+			remoteInfo = EmotionGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC1DA4772383051900B79610 /* EmotionGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1DA47A2383051900B79610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC1DA47C2383051900B79610 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DC1DA47E2383051900B79610 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DC1DA4802383051900B79610 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DC1DA4822383051900B79610 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DC1DA4852383051900B79610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1DA4872383051A00B79610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC1DA48A2383051A00B79610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC1DA48C2383051A00B79610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1DA4912383051A00B79610 /* EmotionGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1DA4952383051A00B79610 /* EmotionGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionGameTests.swift; sourceTree = "<group>"; };
+		DC1DA4972383051A00B79610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1DA49C2383051A00B79610 /* EmotionGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1DA4A02383051A00B79610 /* EmotionGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionGameUITests.swift; sourceTree = "<group>"; };
+		DC1DA4A22383051A00B79610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1DA4742383051900B79610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DA48E2383051A00B79610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DA4992383051A00B79610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1DA46E2383051900B79610 = {
+			isa = PBXGroup;
+			children = (
+				DC1DA4792383051900B79610 /* EmotionGame */,
+				DC1DA4942383051A00B79610 /* EmotionGameTests */,
+				DC1DA49F2383051A00B79610 /* EmotionGameUITests */,
+				DC1DA4782383051900B79610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1DA4782383051900B79610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DA4772383051900B79610 /* EmotionGame.app */,
+				DC1DA4912383051A00B79610 /* EmotionGameTests.xctest */,
+				DC1DA49C2383051A00B79610 /* EmotionGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1DA4792383051900B79610 /* EmotionGame */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DA47A2383051900B79610 /* AppDelegate.swift */,
+				DC1DA47C2383051900B79610 /* GameScene.sks */,
+				DC1DA47E2383051900B79610 /* Actions.sks */,
+				DC1DA4802383051900B79610 /* GameScene.swift */,
+				DC1DA4822383051900B79610 /* GameViewController.swift */,
+				DC1DA4842383051900B79610 /* Main.storyboard */,
+				DC1DA4872383051A00B79610 /* Assets.xcassets */,
+				DC1DA4892383051A00B79610 /* LaunchScreen.storyboard */,
+				DC1DA48C2383051A00B79610 /* Info.plist */,
+			);
+			path = EmotionGame;
+			sourceTree = "<group>";
+		};
+		DC1DA4942383051A00B79610 /* EmotionGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DA4952383051A00B79610 /* EmotionGameTests.swift */,
+				DC1DA4972383051A00B79610 /* Info.plist */,
+			);
+			path = EmotionGameTests;
+			sourceTree = "<group>";
+		};
+		DC1DA49F2383051A00B79610 /* EmotionGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DA4A02383051A00B79610 /* EmotionGameUITests.swift */,
+				DC1DA4A22383051A00B79610 /* Info.plist */,
+			);
+			path = EmotionGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1DA4762383051900B79610 /* EmotionGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1DA4A52383051A00B79610 /* Build configuration list for PBXNativeTarget "EmotionGame" */;
+			buildPhases = (
+				DC1DA4732383051900B79610 /* Sources */,
+				DC1DA4742383051900B79610 /* Frameworks */,
+				DC1DA4752383051900B79610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionGame;
+			productName = EmotionGame;
+			productReference = DC1DA4772383051900B79610 /* EmotionGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC1DA4902383051A00B79610 /* EmotionGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1DA4A82383051A00B79610 /* Build configuration list for PBXNativeTarget "EmotionGameTests" */;
+			buildPhases = (
+				DC1DA48D2383051A00B79610 /* Sources */,
+				DC1DA48E2383051A00B79610 /* Frameworks */,
+				DC1DA48F2383051A00B79610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1DA4932383051A00B79610 /* PBXTargetDependency */,
+			);
+			name = EmotionGameTests;
+			productName = EmotionGameTests;
+			productReference = DC1DA4912383051A00B79610 /* EmotionGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC1DA49B2383051A00B79610 /* EmotionGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1DA4AB2383051A00B79610 /* Build configuration list for PBXNativeTarget "EmotionGameUITests" */;
+			buildPhases = (
+				DC1DA4982383051A00B79610 /* Sources */,
+				DC1DA4992383051A00B79610 /* Frameworks */,
+				DC1DA49A2383051A00B79610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1DA49E2383051A00B79610 /* PBXTargetDependency */,
+			);
+			name = EmotionGameUITests;
+			productName = EmotionGameUITests;
+			productReference = DC1DA49C2383051A00B79610 /* EmotionGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1DA46F2383051900B79610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ed Beckett";
+				TargetAttributes = {
+					DC1DA4762383051900B79610 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					DC1DA4902383051A00B79610 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = DC1DA4762383051900B79610;
+					};
+					DC1DA49B2383051A00B79610 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = DC1DA4762383051900B79610;
+					};
+				};
+			};
+			buildConfigurationList = DC1DA4722383051900B79610 /* Build configuration list for PBXProject "EmotionGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1DA46E2383051900B79610;
+			productRefGroup = DC1DA4782383051900B79610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1DA4762383051900B79610 /* EmotionGame */,
+				DC1DA4902383051A00B79610 /* EmotionGameTests */,
+				DC1DA49B2383051A00B79610 /* EmotionGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1DA4752383051900B79610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DA4862383051900B79610 /* Main.storyboard in Resources */,
+				DC1DA47D2383051900B79610 /* GameScene.sks in Resources */,
+				DC1DA4882383051A00B79610 /* Assets.xcassets in Resources */,
+				DC1DA48B2383051A00B79610 /* LaunchScreen.storyboard in Resources */,
+				DC1DA47F2383051900B79610 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DA48F2383051A00B79610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DA49A2383051A00B79610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1DA4732383051900B79610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DA4812383051900B79610 /* GameScene.swift in Sources */,
+				DC1DA4832383051900B79610 /* GameViewController.swift in Sources */,
+				DC1DA47B2383051900B79610 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DA48D2383051A00B79610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DA4962383051A00B79610 /* EmotionGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1DA4982383051A00B79610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1DA4A12383051A00B79610 /* EmotionGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1DA4932383051A00B79610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1DA4762383051900B79610 /* EmotionGame */;
+			targetProxy = DC1DA4922383051A00B79610 /* PBXContainerItemProxy */;
+		};
+		DC1DA49E2383051A00B79610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1DA4762383051900B79610 /* EmotionGame */;
+			targetProxy = DC1DA49D2383051A00B79610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC1DA4842383051900B79610 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1DA4852383051900B79610 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC1DA4892383051A00B79610 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1DA48A2383051A00B79610 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1DA4A32383051A00B79610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1DA4A42383051A00B79610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1DA4A62383051A00B79610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG96TCV7E4;
+				INFOPLIST_FILE = EmotionGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC1DA4A72383051A00B79610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG96TCV7E4;
+				INFOPLIST_FILE = EmotionGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC1DA4A92383051A00B79610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG96TCV7E4;
+				INFOPLIST_FILE = EmotionGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionGame.app/EmotionGame";
+			};
+			name = Debug;
+		};
+		DC1DA4AA2383051A00B79610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG96TCV7E4;
+				INFOPLIST_FILE = EmotionGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionGame.app/EmotionGame";
+			};
+			name = Release;
+		};
+		DC1DA4AC2383051A00B79610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG96TCV7E4;
+				INFOPLIST_FILE = EmotionGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmotionGame;
+			};
+			name = Debug;
+		};
+		DC1DA4AD2383051A00B79610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PG96TCV7E4;
+				INFOPLIST_FILE = EmotionGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmotionGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1DA4722383051900B79610 /* Build configuration list for PBXProject "EmotionGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1DA4A32383051A00B79610 /* Debug */,
+				DC1DA4A42383051A00B79610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1DA4A52383051A00B79610 /* Build configuration list for PBXNativeTarget "EmotionGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1DA4A62383051A00B79610 /* Debug */,
+				DC1DA4A72383051A00B79610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1DA4A82383051A00B79610 /* Build configuration list for PBXNativeTarget "EmotionGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1DA4A92383051A00B79610 /* Debug */,
+				DC1DA4AA2383051A00B79610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1DA4AB2383051A00B79610 /* Build configuration list for PBXNativeTarget "EmotionGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1DA4AC2383051A00B79610 /* Debug */,
+				DC1DA4AD2383051A00B79610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1DA46F2383051900B79610 /* Project object */;
+}

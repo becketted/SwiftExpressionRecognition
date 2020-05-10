@@ -17,27 +17,21 @@ class GameViewController: UIViewController {
         
         // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
         // including entities and graphs.
-        if let scene = GKScene(fileNamed: "GameScene") {
+        if let scene = MainMenu(fileNamed: "MainMenu") {
             
-            // Get the SKScene from the loaded GKScene
-            if let sceneNode = scene.rootNode as! GameScene? {
+            // Set the scale mode to scale to fit the window
+            scene.scaleMode = .aspectFill
                 
-                // Copy gameplay related content over to the scene
-                sceneNode.entities = scene.entities
-                sceneNode.graphs = scene.graphs
-                
-                // Set the scale mode to scale to fit the window
-                sceneNode.scaleMode = .aspectFill
-                
-                // Present the scene
-                if let view = self.view as! SKView? {
-                    view.presentScene(sceneNode)
+            // Present the scene
+            if let view = self.view as! SKView? {
+                view.presentScene(scene)
                     
-                    view.ignoresSiblingOrder = true
+                view.ignoresSiblingOrder = true
                     
-                    view.showsFPS = true
-                    view.showsNodeCount = true
-                }
+                //view.showsFPS = true
+                //view.showsNodeCount = true
+                view.showsFPS = false
+                view.showsNodeCount = false
             }
         }
     }
@@ -57,4 +51,11 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    override func didReceiveMemoryWarning() {
+           super.didReceiveMemoryWarning()
+           // Release any cached data, images, etc that aren't in use.
+    }
+    
+    
 }

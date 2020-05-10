@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DC1DA47B2383051900B79610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA47A2383051900B79610 /* AppDelegate.swift */; };
-		DC1DA47D2383051900B79610 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA47C2383051900B79610 /* GameScene.sks */; };
-		DC1DA47F2383051900B79610 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA47E2383051900B79610 /* Actions.sks */; };
 		DC1DA4812383051900B79610 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4802383051900B79610 /* GameScene.swift */; };
 		DC1DA4832383051900B79610 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4822383051900B79610 /* GameViewController.swift */; };
 		DC1DA4862383051900B79610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA4842383051900B79610 /* Main.storyboard */; };
@@ -17,6 +15,19 @@
 		DC1DA48B2383051A00B79610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA4892383051A00B79610 /* LaunchScreen.storyboard */; };
 		DC1DA4962383051A00B79610 /* EmotionGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4952383051A00B79610 /* EmotionGameTests.swift */; };
 		DC1DA4A12383051A00B79610 /* EmotionGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4A02383051A00B79610 /* EmotionGameUITests.swift */; };
+		DC1DA4AF2383054200B79610 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4AE2383054200B79610 /* MainMenu.swift */; };
+		DC1DA4B12383054D00B79610 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA4B02383054D00B79610 /* MainMenu.sks */; };
+		DC1DA4B3238305B900B79610 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4B2238305B900B79610 /* MSButtonNode.swift */; };
+		DC1DA4B523833BBA00B79610 /* PhotoCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA4B423833BBA00B79610 /* PhotoCaptureProcessor.swift */; };
+		DC7F3DBA24339A0D006D6A91 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F3DB924339A0D006D6A91 /* Settings.swift */; };
+		DC7F3DBC2434C440006D6A91 /* Settings.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC7F3DBB2434C440006D6A91 /* Settings.sks */; };
+		DC885FA623D2548400931443 /* yellowbird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DC885FA523D2548400931443 /* yellowbird.atlas */; };
+		DC885FA823D255D800931443 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC885FA723D255D800931443 /* GameScene.sks */; };
+		DCA10F6B2432504500A51CB5 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA10F6A2432504500A51CB5 /* AudioPlayer.swift */; };
+		DCA10F6D2432514900A51CB5 /* Elevator Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCA10F6C2432514900A51CB5 /* Elevator Music.mp3 */; };
+		DCA10F6F2432597200A51CB5 /* Funk.wav in Resources */ = {isa = PBXBuildFile; fileRef = DCA10F6E2432597200A51CB5 /* Funk.wav */; };
+		DCE50D2C239039050064C25B /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE50D2B239039050064C25B /* CameraController.swift */; };
+		DCE50D2E23903A4A0064C25B /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE50D2D23903A4A0064C25B /* FaceDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,6 @@
 /* Begin PBXFileReference section */
 		DC1DA4772383051900B79610 /* EmotionGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1DA47A2383051900B79610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC1DA47C2383051900B79610 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		DC1DA47E2383051900B79610 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		DC1DA4802383051900B79610 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		DC1DA4822383051900B79610 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		DC1DA4852383051900B79610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +62,19 @@
 		DC1DA49C2383051A00B79610 /* EmotionGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1DA4A02383051A00B79610 /* EmotionGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionGameUITests.swift; sourceTree = "<group>"; };
 		DC1DA4A22383051A00B79610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1DA4AE2383054200B79610 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		DC1DA4B02383054D00B79610 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		DC1DA4B2238305B900B79610 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		DC1DA4B423833BBA00B79610 /* PhotoCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureProcessor.swift; sourceTree = "<group>"; };
+		DC7F3DB924339A0D006D6A91 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DC7F3DBB2434C440006D6A91 /* Settings.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Settings.sks; sourceTree = "<group>"; };
+		DC885FA523D2548400931443 /* yellowbird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = yellowbird.atlas; sourceTree = "<group>"; };
+		DC885FA723D255D800931443 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DCA10F6A2432504500A51CB5 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		DCA10F6C2432514900A51CB5 /* Elevator Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Elevator Music.mp3"; sourceTree = "<group>"; };
+		DCA10F6E2432597200A51CB5 /* Funk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Funk.wav; sourceTree = "<group>"; };
+		DCE50D2B239039050064C25B /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		DCE50D2D23903A4A0064C25B /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +125,26 @@
 		DC1DA4792383051900B79610 /* EmotionGame */ = {
 			isa = PBXGroup;
 			children = (
+				DCA10F6C2432514900A51CB5 /* Elevator Music.mp3 */,
+				DCA10F6E2432597200A51CB5 /* Funk.wav */,
+				DC885FA523D2548400931443 /* yellowbird.atlas */,
 				DC1DA47A2383051900B79610 /* AppDelegate.swift */,
-				DC1DA47C2383051900B79610 /* GameScene.sks */,
-				DC1DA47E2383051900B79610 /* Actions.sks */,
-				DC1DA4802383051900B79610 /* GameScene.swift */,
 				DC1DA4822383051900B79610 /* GameViewController.swift */,
+				DC885FA723D255D800931443 /* GameScene.sks */,
+				DC1DA4802383051900B79610 /* GameScene.swift */,
+				DCA10F6A2432504500A51CB5 /* AudioPlayer.swift */,
+				DCE50D2B239039050064C25B /* CameraController.swift */,
+				DCE50D2D23903A4A0064C25B /* FaceDetector.swift */,
+				DC1DA4B02383054D00B79610 /* MainMenu.sks */,
+				DC1DA4AE2383054200B79610 /* MainMenu.swift */,
+				DC7F3DBB2434C440006D6A91 /* Settings.sks */,
+				DC7F3DB924339A0D006D6A91 /* Settings.swift */,
+				DC1DA4B423833BBA00B79610 /* PhotoCaptureProcessor.swift */,
+				DC1DA4B2238305B900B79610 /* MSButtonNode.swift */,
 				DC1DA4842383051900B79610 /* Main.storyboard */,
-				DC1DA4872383051A00B79610 /* Assets.xcassets */,
 				DC1DA4892383051A00B79610 /* LaunchScreen.storyboard */,
 				DC1DA48C2383051A00B79610 /* Info.plist */,
+				DC1DA4872383051A00B79610 /* Assets.xcassets */,
 			);
 			path = EmotionGame;
 			sourceTree = "<group>";
@@ -238,11 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA10F6F2432597200A51CB5 /* Funk.wav in Resources */,
 				DC1DA4862383051900B79610 /* Main.storyboard in Resources */,
-				DC1DA47D2383051900B79610 /* GameScene.sks in Resources */,
+				DC7F3DBC2434C440006D6A91 /* Settings.sks in Resources */,
+				DC1DA4B12383054D00B79610 /* MainMenu.sks in Resources */,
+				DC885FA623D2548400931443 /* yellowbird.atlas in Resources */,
 				DC1DA4882383051A00B79610 /* Assets.xcassets in Resources */,
+				DC885FA823D255D800931443 /* GameScene.sks in Resources */,
 				DC1DA48B2383051A00B79610 /* LaunchScreen.storyboard in Resources */,
-				DC1DA47F2383051900B79610 /* Actions.sks in Resources */,
+				DCA10F6D2432514900A51CB5 /* Elevator Music.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +306,14 @@
 			files = (
 				DC1DA4812383051900B79610 /* GameScene.swift in Sources */,
 				DC1DA4832383051900B79610 /* GameViewController.swift in Sources */,
+				DCA10F6B2432504500A51CB5 /* AudioPlayer.swift in Sources */,
+				DCE50D2C239039050064C25B /* CameraController.swift in Sources */,
+				DC7F3DBA24339A0D006D6A91 /* Settings.swift in Sources */,
+				DC1DA4B523833BBA00B79610 /* PhotoCaptureProcessor.swift in Sources */,
 				DC1DA47B2383051900B79610 /* AppDelegate.swift in Sources */,
+				DC1DA4AF2383054200B79610 /* MainMenu.swift in Sources */,
+				DCE50D2E23903A4A0064C25B /* FaceDetector.swift in Sources */,
+				DC1DA4B3238305B900B79610 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +514,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Becketted.EmotionGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
